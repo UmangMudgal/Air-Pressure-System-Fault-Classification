@@ -10,3 +10,4 @@ Flask
 certifi
 python-dotenv
 from-root
+PyYAML
