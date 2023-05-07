@@ -21,7 +21,7 @@ def get_requirements(file_path:str)-> List[str]:
 
 setup(
     name='APS sensor fault Classification',
-    version='0.0.1',
+    version='0.0.2',
     author='Umang Mudgal',
     author_email='mudgal0709@gmail.com',
     packages=find_packages(),

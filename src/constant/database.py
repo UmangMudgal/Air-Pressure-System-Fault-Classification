@@ -1,0 +1,2 @@
+DATABASE_NAME = "ClassificationData"
+COLLECTION_NAME = 'APS'
