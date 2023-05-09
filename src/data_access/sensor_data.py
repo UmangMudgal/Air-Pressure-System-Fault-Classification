@@ -11,7 +11,7 @@ from src.exception import CustomException
 
 class SensorData:
     """
-    Description : This class help to export the mongo db record as dataframe
+    Description : This class help to export the MongoDB record as dataframe
     """
 
     def __init__(self):
@@ -40,6 +40,7 @@ class SensorData:
             df.replace({"na":np.nan}, inplace = True)
 
             return df
+        
         except Exception as e:
             raise CustomException(e, sys)
         
