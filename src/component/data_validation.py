@@ -142,6 +142,6 @@ class DataValidation:
             )
             
             logging.info(f"Data Validation Artifact : {data_validation_artifact}")
-
+            return data_validation_artifact
         except Exception as e:
             raise CustomException(e, sys)

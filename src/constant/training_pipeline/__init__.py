@@ -37,3 +37,13 @@ DATA_VALIDATION_DIR : str = "validated"
 DATA_VALIDATION_INVALID_DIR :str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR : str = "drift_report"
 DATA_VALIDATION_DRIFT_REPOR_FILE_NAME : str = "report.yaml"
+
+
+"""
+Data Transformation Realted Constant
+Start with Data_Transformation
+"""
+DATA_TRANSFORMATION_DIR_NAME : str = "data_transformation"
+DATA_TRANSFORMATION_TRANFORMED_DATA_DIR : str = "transformed"
+DATA_TRANSFORMATION_TRANFORMED_OBJECT_DIR : str = "transformed_object"
+

@@ -11,3 +11,5 @@ certifi
 python-dotenv
 from-root
 PyYAML
+dill
+imblearn
